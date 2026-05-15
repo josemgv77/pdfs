@@ -1,142 +1,87 @@
-const state = {
-  test: null,
+const appState = {
+  testData: null,
+  questions: [],
   currentQuestionIndex: 0,
   answers: [],
-  revealed: []
+  revealed: [],
+  modeLabel: 'Test completo'
 };
-
-function normalizeQuestions(questions) {
-  if (!Array.isArray(questions)) return [];
-
-  return questions.map((question, index) => ({
-    id: question.id || `q-${index + 1}`,
-    text: question.text || `Pregunta ${index + 1}`,
-    options: Array.isArray(question.options) ? question.options : [],
-    correctIndex: Number.isInteger(question.correctIndex) ? question.correctIndex : 0,
-    explanation: question.explanation || 'Explicación no disponible todavía.'
-  }));
-}
-
-function getEmbeddedConfig() {
-  if (window.TEST_CONFIG) {
-    return {
-      tomoId: window.TEST_CONFIG.tomoId || 'plantilla',
-      title: window.TEST_CONFIG.title || 'Test sin título',
-      description: window.TEST_CONFIG.description || 'Sin descripción.',
-      questions: normalizeQuestions(window.TEST_CONFIG.questions)
-    };
-  }
-
-  return null;
-}
-
-function getRouteTomoId() {
-  const params = new URLSearchParams(window.location.search);
-  return params.get('tomo');
-}
-
-function getTestFromTomos() {
-  if (!Array.isArray(window.TOMOS)) return null;
-
-  const tomoId = getRouteTomoId();
-  if (!tomoId) return null;
-
-  return window.TOMOS.find((item) => item.id === tomoId) || null;
-}
-
-function buildTestContext() {
-  const embedded = getEmbeddedConfig();
-  if (embedded) return embedded;
-
-  const tomo = getTestFromTomos();
-  if (tomo) {
-    return {
-      tomoId: tomo.id,
-      title: tomo.title,
-      description: tomo.description || 'Test del tomo seleccionado.',
-      questions: normalizeQuestions(tomo.questions)
-    };
-  }
-
-  return null;
-}
 
 function renderIndex() {
   const grid = document.getElementById('tomos-grid');
-  if (!grid || !Array.isArray(window.TOMOS)) return;
+  const repoCount = document.getElementById('repo-count');
+  if (!grid || !Array.isArray(window.TEST_TOMOS)) return;
 
+  if (repoCount) repoCount.textContent = String(window.TEST_TOMOS.length);
   grid.innerHTML = '';
 
-  window.TOMOS.forEach((tomo) => {
+  window.TEST_TOMOS.forEach((tomo) => {
     const card = document.createElement('article');
     card.className = 'card';
 
     const badge = document.createElement('span');
     badge.className = 'badge';
-    badge.textContent = tomo.badge || 'Tomo';
+    badge.textContent = tomo.badge;
 
     const title = document.createElement('h2');
     title.textContent = tomo.title;
 
-    const meta = document.createElement('p');
-    meta.className = 'meta';
-    meta.textContent = tomo.description || 'Sin descripción disponible.';
+    const description = document.createElement('p');
+    description.textContent = tomo.description;
 
-    const total = document.createElement('p');
-    total.className = 'meta';
-    total.innerHTML = `<strong>Preguntas cargadas:</strong> ${Array.isArray(tomo.questions) ? tomo.questions.length : 0}`;
+    const count = document.createElement('p');
+    count.innerHTML = `<strong>Preguntas cargadas:</strong> ${tomo.questionCount}`;
 
     const actions = document.createElement('div');
     actions.className = 'actions';
 
-    const openButton = document.createElement('a');
-    openButton.className = 'button primary';
-    openButton.href = tomo.file || `./template.html?tomo=${encodeURIComponent(tomo.id)}`;
-    openButton.textContent = 'Abrir test';
+    const openTest = document.createElement('a');
+    openTest.className = 'button primary';
+    openTest.href = tomo.htmlFile;
+    openTest.textContent = 'Abrir test';
 
-    actions.appendChild(openButton);
-    card.append(badge, title, meta, total, actions);
+    const openPdf = document.createElement('a');
+    openPdf.className = 'button ghost';
+    openPdf.href = tomo.pdfHref;
+    openPdf.target = '_blank';
+    openPdf.rel = 'noreferrer';
+    openPdf.textContent = 'Ver PDF';
+
+    actions.append(openTest, openPdf);
+    card.append(badge, title, description, count, actions);
     grid.appendChild(card);
   });
 }
 
-function renderQuestion() {
-  const question = state.test.questions[state.currentQuestionIndex];
-  if (!question) return;
+function updateText(id, value) {
+  const node = document.getElementById(id);
+  if (node) node.textContent = value;
+}
 
-  const questionText = document.getElementById('question-text');
-  const optionsContainer = document.getElementById('options');
-  const feedback = document.getElementById('feedback');
-  const statusTomo = document.getElementById('status-tomo');
-  const statusQuestion = document.getElementById('status-question');
-  const statusAnswered = document.getElementById('status-answered');
-  const title = document.getElementById('test-title');
-  const description = document.getElementById('test-description');
-  const prevButton = document.getElementById('prev-button');
-  const nextButton = document.getElementById('next-button');
-
-  if (title) title.textContent = state.test.title;
-  if (description) description.textContent = state.test.description;
-  if (statusTomo) statusTomo.textContent = state.test.tomoId;
-  if (statusQuestion) statusQuestion.textContent = `${state.currentQuestionIndex + 1} / ${state.test.questions.length}`;
-  if (statusAnswered) statusAnswered.textContent = state.answers.filter((answer) => answer !== null).length;
-  if (questionText) questionText.textContent = question.text;
-
-  optionsContainer.innerHTML = '';
+function createOptions(question, selectedAnswer, isRevealed) {
+  const container = document.getElementById('options');
+  if (!container) return;
+  container.innerHTML = '';
 
   question.options.forEach((optionText, optionIndex) => {
     const label = document.createElement('label');
     label.className = 'option';
 
+    if (isRevealed && optionIndex === question.correctIndex) {
+      label.classList.add('correct');
+    }
+    if (isRevealed && selectedAnswer === optionIndex && selectedAnswer !== question.correctIndex) {
+      label.classList.add('incorrect');
+    }
+
     const input = document.createElement('input');
     input.type = 'radio';
     input.name = 'answer';
     input.value = String(optionIndex);
-    input.checked = state.answers[state.currentQuestionIndex] === optionIndex;
-
+    input.checked = selectedAnswer === optionIndex;
     input.addEventListener('change', () => {
-      state.answers[state.currentQuestionIndex] = optionIndex;
-      state.revealed[state.currentQuestionIndex] = false;
+      appState.answers[appState.currentQuestionIndex] = optionIndex;
+      appState.revealed[appState.currentQuestionIndex] = false;
       renderQuestion();
     });
 
@@ -144,89 +89,133 @@ function renderQuestion() {
     text.textContent = optionText;
 
     label.append(input, text);
-
-    if (state.revealed[state.currentQuestionIndex]) {
-      if (optionIndex === question.correctIndex) {
-        label.classList.add('correct');
-      }
-
-      const selected = state.answers[state.currentQuestionIndex];
-      if (selected === optionIndex && selected !== question.correctIndex) {
-        label.classList.add('incorrect');
-      }
-    }
-
-    optionsContainer.appendChild(label);
+    container.appendChild(label);
   });
+}
+
+function renderFeedback(question, selectedAnswer, isRevealed) {
+  const feedback = document.getElementById('feedback');
+  if (!feedback) return;
 
   feedback.className = 'feedback';
   feedback.innerHTML = '';
 
-  if (state.revealed[state.currentQuestionIndex]) {
-    const selected = state.answers[state.currentQuestionIndex];
+  if (!isRevealed) return;
 
-    if (selected === null || selected === undefined) {
-      feedback.classList.add('visible', 'warning');
-      feedback.innerHTML = `
-        <span class="feedback-title">No has seleccionado ninguna respuesta.</span>
-        La opción correcta es la <strong>${question.correctIndex + 1}</strong>: ${question.options[question.correctIndex]}.
-        <br /><br />
-        <strong>Explicación:</strong> ${question.explanation}
-      `;
-    } else if (selected === question.correctIndex) {
-      feedback.classList.add('visible', 'correct');
-      feedback.innerHTML = `
-        <span class="feedback-title">Respuesta correcta.</span>
-        Has marcado la opción correcta: <strong>${question.options[question.correctIndex]}</strong>.
-        <br /><br />
-        <strong>Explicación:</strong> ${question.explanation}
-      `;
-    } else {
-      feedback.classList.add('visible', 'incorrect');
-      feedback.innerHTML = `
-        <span class="feedback-title">Respuesta incorrecta.</span>
-        Has marcado <strong>${question.options[selected]}</strong>, pero la correcta es <strong>${question.options[question.correctIndex]}</strong>.
-        <br /><br />
-        <strong>Explicación:</strong> ${question.explanation}
-      `;
-    }
+  if (selectedAnswer === null || selectedAnswer === undefined) {
+    feedback.classList.add('visible', 'warning');
+    feedback.innerHTML = `<span class="feedback-title">No has seleccionado ninguna opción.</span>La respuesta correcta es <strong>${question.options[question.correctIndex]}</strong>.<br /><br /><strong>Explicación:</strong> ${question.explanation}`;
+    return;
   }
 
-  if (prevButton) prevButton.disabled = state.currentQuestionIndex === 0;
-  if (nextButton) nextButton.disabled = state.currentQuestionIndex === state.test.questions.length - 1;
+  if (selectedAnswer === question.correctIndex) {
+    feedback.classList.add('visible', 'correct');
+    feedback.innerHTML = `<span class="feedback-title">Respuesta correcta.</span>Has marcado <strong>${question.options[selectedAnswer]}</strong>.<br /><br /><strong>Explicación:</strong> ${question.explanation}`;
+    return;
+  }
+
+  feedback.classList.add('visible', 'incorrect');
+  feedback.innerHTML = `<span class="feedback-title">Respuesta incorrecta.</span>Has marcado <strong>${question.options[selectedAnswer]}</strong>, pero la correcta es <strong>${question.options[question.correctIndex]}</strong>.<br /><br /><strong>Explicación:</strong> ${question.explanation}`;
+}
+
+function provisionalCorrectCount() {
+  return appState.questions.reduce((total, question, index) => total + (appState.answers[index] === question.correctIndex ? 1 : 0), 0);
+}
+
+function renderQuestion() {
+  const question = appState.questions[appState.currentQuestionIndex];
+  if (!question) return;
+
+  const selectedAnswer = appState.answers[appState.currentQuestionIndex];
+  const isRevealed = appState.revealed[appState.currentQuestionIndex];
+
+  updateText('test-title', appState.testData.title);
+  updateText('test-description', appState.testData.description);
+  updateText('test-badge', appState.testData.badge || 'Tomo');
+  updateText('status-total', String(appState.questions.length));
+  updateText('status-mode', appState.modeLabel);
+  updateText('seed-note', appState.testData.seedNote || 'Preguntas semilla disponibles.');
+  updateText('status-question', `${appState.currentQuestionIndex + 1} / ${appState.questions.length}`);
+  updateText('status-answered', String(appState.answers.filter((answer) => answer !== null && answer !== undefined).length));
+  updateText('status-correct', String(provisionalCorrectCount()));
+  updateText('question-text', question.text);
+
+  const sourceLink = document.getElementById('source-pdf-link');
+  if (sourceLink) {
+    sourceLink.href = appState.testData.sourcePdf;
+    sourceLink.textContent = appState.testData.sourcePdfLabel;
+  }
+
+  const prevButton = document.getElementById('prev-button');
+  const nextButton = document.getElementById('next-button');
+  if (prevButton) prevButton.disabled = appState.currentQuestionIndex === 0;
+  if (nextButton) nextButton.disabled = appState.currentQuestionIndex === appState.questions.length - 1;
+
+  createOptions(question, selectedAnswer, isRevealed);
+  renderFeedback(question, selectedAnswer, isRevealed);
+}
+
+function computeResults() {
+  return appState.questions.reduce((summary, question, index) => {
+    const answer = appState.answers[index];
+    if (answer === null || answer === undefined) {
+      summary.unanswered += 1;
+      summary.failedIndexes.push(index);
+    } else if (answer === question.correctIndex) {
+      summary.correct += 1;
+    } else {
+      summary.incorrect += 1;
+      summary.failedIndexes.push(index);
+    }
+    return summary;
+  }, { correct: 0, incorrect: 0, unanswered: 0, failedIndexes: [] });
 }
 
 function finishTest() {
   const results = document.getElementById('results');
-  const score = document.getElementById('score');
-  const hits = document.getElementById('hits');
-  const errors = document.getElementById('errors');
-  const blank = document.getElementById('blank');
+  if (!results) return;
 
-  const total = state.test.questions.length;
-  let correct = 0;
-  let incorrect = 0;
-  let unanswered = 0;
+  const summary = computeResults();
+  const total = appState.questions.length;
+  const percentage = total > 0 ? Math.round((summary.correct / total) * 100) : 0;
 
-  state.test.questions.forEach((question, index) => {
-    const answer = state.answers[index];
-    if (answer === null || answer === undefined) {
-      unanswered += 1;
-    } else if (answer === question.correctIndex) {
-      correct += 1;
+  updateText('hits', String(summary.correct));
+  updateText('errors', String(summary.incorrect));
+  updateText('blank', String(summary.unanswered));
+  updateText('score', `${percentage}%`);
+
+  const note = document.getElementById('results-note');
+  if (note) {
+    if (summary.failedIndexes.length > 0) {
+      note.textContent = 'Puedes repetir solo las preguntas falladas o pendientes con el botón inferior. La selección se mantiene únicamente en memoria durante esta sesión.';
     } else {
-      incorrect += 1;
+      note.textContent = 'Has acertado todas las preguntas cargadas en este tomo.';
     }
-  });
+  }
 
-  const percentage = total > 0 ? Math.round((correct / total) * 100) : 0;
+  const repeatButton = document.getElementById('repeat-failed-button');
+  if (repeatButton) {
+    repeatButton.hidden = summary.failedIndexes.length === 0;
+    repeatButton.onclick = () => repeatFailed(summary.failedIndexes);
+  }
 
-  score.textContent = `${percentage}%`;
-  hits.textContent = `${correct} de ${total}`;
-  errors.textContent = String(incorrect);
-  blank.textContent = String(unanswered);
-  results.classList.add('visible');
+  results.hidden = false;
   results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function repeatFailed(failedIndexes) {
+  const uniqueIndexes = Array.from(new Set(failedIndexes)).filter((index) => appState.questions[index]);
+  if (uniqueIndexes.length === 0) return;
+
+  appState.questions = uniqueIndexes.map((index) => appState.questions[index]);
+  appState.answers = appState.questions.map(() => null);
+  appState.revealed = appState.questions.map(() => false);
+  appState.currentQuestionIndex = 0;
+  appState.modeLabel = 'Repaso de falladas';
+
+  const results = document.getElementById('results');
+  if (results) results.hidden = true;
+  renderQuestion();
 }
 
 function bindTestEvents() {
@@ -237,8 +226,8 @@ function bindTestEvents() {
 
   if (prevButton) {
     prevButton.addEventListener('click', () => {
-      if (state.currentQuestionIndex > 0) {
-        state.currentQuestionIndex -= 1;
+      if (appState.currentQuestionIndex > 0) {
+        appState.currentQuestionIndex -= 1;
         renderQuestion();
       }
     });
@@ -246,8 +235,8 @@ function bindTestEvents() {
 
   if (nextButton) {
     nextButton.addEventListener('click', () => {
-      if (state.currentQuestionIndex < state.test.questions.length - 1) {
-        state.currentQuestionIndex += 1;
+      if (appState.currentQuestionIndex < appState.questions.length - 1) {
+        appState.currentQuestionIndex += 1;
         renderQuestion();
       }
     });
@@ -255,7 +244,7 @@ function bindTestEvents() {
 
   if (revealButton) {
     revealButton.addEventListener('click', () => {
-      state.revealed[state.currentQuestionIndex] = true;
+      appState.revealed[appState.currentQuestionIndex] = true;
       renderQuestion();
     });
   }
@@ -266,13 +255,14 @@ function bindTestEvents() {
 }
 
 function initTestPage() {
-  const context = buildTestContext();
-  if (!context) return;
+  if (!window.TEST_DATA || !document.getElementById('test-app')) return;
 
-  state.test = context;
-  state.currentQuestionIndex = 0;
-  state.answers = context.questions.map(() => null);
-  state.revealed = context.questions.map(() => false);
+  appState.testData = window.TEST_DATA;
+  appState.questions = Array.isArray(window.TEST_DATA.questions) ? window.TEST_DATA.questions.slice(0, 350) : [];
+  appState.answers = appState.questions.map(() => null);
+  appState.revealed = appState.questions.map(() => false);
+  appState.currentQuestionIndex = 0;
+  appState.modeLabel = 'Test completo';
 
   bindTestEvents();
   renderQuestion();
