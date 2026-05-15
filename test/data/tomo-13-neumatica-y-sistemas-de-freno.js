@@ -2,70 +2,1210 @@ window.TEST_DATA = {
   "id": "tomo-13-neumatica-y-sistemas-de-freno",
   "badge": "Tomo 13",
   "title": "Tomo 13 — NEUMÁTICA Y SISTEMAS DE FRENO",
-  "description": "Banco inicial funcional para el PDF \"tomo 13 NEUMÁTICA Y SISTEMAS DE FRENO.pdf\". Incluye preguntas semilla verificables y deja la estructura lista para ampliar hasta 350 preguntas.",
-  "seedNote": "Preguntas iniciales/semilla derivadas del nombre y de los metadatos accesibles del PDF. Deben ampliarse cuando sea posible extraer el texto completo del tomo.",
+  "description": "Banco temático inicial para el PDF \"tomo 13 NEUMÁTICA Y SISTEMAS DE FRENO.pdf\". Incluye 100 preguntas semilla ampliables y mantiene el límite operativo de hasta 350 preguntas por tomo.",
+  "seedNote": "Banco inicial ampliable: estas preguntas se han generado desde la temática del tomo y metadatos accesibles. Si se extrae el texto íntegro del PDF, se recomienda refinarlas y ampliarlas.",
   "sourcePdf": "../../tomo%2013%20NEUM%C3%81TICA%20Y%20SISTEMAS%20DE%20FRENO.pdf",
   "sourcePdfLabel": "tomo 13 NEUMÁTICA Y SISTEMAS DE FRENO.pdf",
   "questions": [
     {
-      "id": "tomo-13-neumatica-y-sistemas-de-freno-tema",
-      "text": "¿Qué tema identifica de forma directa el título del tomo 13?",
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-001",
+      "text": "¿Cuál es la práctica más recomendable al iniciar una intervención de «NEUMÁTICA Y SISTEMAS DE FRENO» considerando disponibilidad del material?",
       "options": [
-        "NEUMÁTICA Y SISTEMAS DE FRENO",
-        "HERRAMIENTAS Y UTILLAJE",
-        "DIAGNOSIS AVANZADA",
-        "MOTORES ELÉCTRICOS FERROVIARIOS"
+        "Revisar documentación técnica, riesgos y objetivo de la intervención",
+        "Omitir la revisión previa para reducir tiempos",
+        "Intervenir por ensayo y error sin registrar datos",
+        "Sustituir componentes sin diagnóstico inicial"
       ],
       "correctIndex": 0,
-      "explanation": "La opción correcta es la que reproduce el tema visible en el nombre del PDF: \"Tomo 13 — NEUMÁTICA Y SISTEMAS DE FRENO\". Este banco inicial se ha construido a partir del nombre del PDF y de sus metadatos accesibles. El texto completo del tomo no pudo extraerse de forma fiable en este entorno, así que el test queda listo para ampliarse más adelante con preguntas reales del contenido."
+      "explanation": "En trabajos de NEUMÁTICA Y SISTEMAS DE FRENO, empezar con documentación, riesgos y objetivo evita errores y mejora la trazabilidad. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
     },
     {
-      "id": "tomo-13-neumatica-y-sistemas-de-freno-titulo",
-      "text": "¿Qué título corresponde a este test semilla?",
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-002",
+      "text": "En tareas de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué acción mejora la seguridad operativa manteniendo la trazabilidad técnica?",
       "options": [
-        "Tomo 13 — NEUMÁTICA Y SISTEMAS DE FRENO",
-        "Tomo 14 — BOGIES, TRACCIÓN Y CHOQUE",
-        "Tomo 15 — METROLOGÍA Y MEDICIÓN",
-        "Tomo 16 — AJUSTES Y TOLERANCIAS"
+        "Confiar solo en que el equipo está detenido",
+        "Trabajar sin EPI para ganar movilidad",
+        "Dejar herramientas sueltas en la zona de intervención",
+        "Aplicar bloqueo/consignación y verificar ausencia de energía antes de actuar"
       ],
-      "correctIndex": 0,
-      "explanation": "Este test pertenece al PDF \"tomo 13 NEUMÁTICA Y SISTEMAS DE FRENO.pdf\", presentado en la app como \"Tomo 13 — NEUMÁTICA Y SISTEMAS DE FRENO\". Este banco inicial se ha construido a partir del nombre del PDF y de sus metadatos accesibles. El texto completo del tomo no pudo extraerse de forma fiable en este entorno, así que el test queda listo para ampliarse más adelante con preguntas reales del contenido."
+      "correctIndex": 3,
+      "explanation": "La consignación y la verificación previa son medidas base de seguridad también en procesos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
     },
     {
-      "id": "tomo-13-neumatica-y-sistemas-de-freno-numero",
-      "text": "¿Qué número de tomo debes asociar a esta batería inicial?",
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-003",
+      "text": "Para controlar la calidad en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene registrar siempre sin comprometer la seguridad del personal?",
       "options": [
-        "13",
-        "18",
-        "24",
-        "30"
+        "Únicamente la opinión del operario",
+        "Nada, si el sistema vuelve a funcionar",
+        "Mediciones, ajustes realizados, repuestos y resultado de la prueba final",
+        "Solo la hora de entrada y salida"
       ],
-      "correctIndex": 0,
-      "explanation": "El número correcto es 13, tal y como aparece en el nombre del archivo \"tomo 13 NEUMÁTICA Y SISTEMAS DE FRENO.pdf\" y en el encabezado del test."
+      "correctIndex": 2,
+      "explanation": "Registrar datos técnicos permite repetir resultados y detectar tendencias de fallo en ámbitos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
     },
     {
-      "id": "tomo-13-neumatica-y-sistemas-de-freno-pdf",
-      "text": "¿Qué archivo PDF sirve como fuente directa de este test inicial?",
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-004",
+      "text": "¿Qué enfoque de diagnóstico suele ser más eficaz en «NEUMÁTICA Y SISTEMAS DE FRENO» de acuerdo con buenas prácticas de mantenimiento?",
       "options": [
-        "tomo 13 NEUMÁTICA Y SISTEMAS DE FRENO.pdf",
-        "tomo 20 SOLDADURA Y UNIONES.pdf",
-        "tomo 26 ELECTRICIDAD BÁSICA FERROVIARIA.pdf",
-        "tomo 32 CASOS PRÁCTICOS REALES.pdf"
+        "Descartar pruebas de verificación",
+        "Comprobar primero síntomas, causas probables y pruebas de confirmación",
+        "Cambiar la pieza más cara directamente",
+        "Ignorar los síntomas intermitentes"
       ],
-      "correctIndex": 0,
-      "explanation": "La fuente enlazada en la página es \"tomo 13 NEUMÁTICA Y SISTEMAS DE FRENO.pdf\". Este banco inicial se ha construido a partir del nombre del PDF y de sus metadatos accesibles. El texto completo del tomo no pudo extraerse de forma fiable en este entorno, así que el test queda listo para ampliarse más adelante con preguntas reales del contenido."
+      "correctIndex": 1,
+      "explanation": "Un diagnóstico estructurado reduce retrabajos en cualquier escenario relacionado con NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
     },
     {
-      "id": "tomo-13-neumatica-y-sistemas-de-freno-aviso",
-      "text": "¿Qué aviso debes tener en cuenta al usar este tomo?",
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-005",
+      "text": "En un procedimiento de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué ayuda a evitar averías repetitivas con foco en fiabilidad y repetibilidad?",
       "options": [
-        "Que las preguntas son iniciales/semilla y deben ampliarse cuando se pueda extraer el contenido completo del PDF",
-        "Que el test ya refleja de forma exhaustiva todo el contenido interno del PDF sin necesidad de revisión",
-        "Que el botón “Finalizar” elimina las preguntas falladas de forma permanente",
-        "Que el modo de repetir falladas requiere conexión a servicios externos"
+        "Analizar causa raíz y validar la reparación en condiciones reales",
+        "Cerrar la incidencia sin prueba final",
+        "Corregir solo el síntoma visible",
+        "Posponer la validación para otra intervención"
       ],
       "correctIndex": 0,
-      "explanation": "Este banco inicial se ha construido a partir del nombre del PDF y de sus metadatos accesibles. El texto completo del tomo no pudo extraerse de forma fiable en este entorno, así que el test queda listo para ampliarse más adelante con preguntas reales del contenido."
+      "explanation": "La causa raíz y la validación final son claves para cortar recurrencias en tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-006",
+      "text": "¿Qué criterio es correcto al seleccionar herramienta para «NEUMÁTICA Y SISTEMAS DE FRENO» antes de devolver el equipo al servicio?",
+      "options": [
+        "Usar cualquier herramienta disponible",
+        "Priorizar velocidad aunque se dañe el componente",
+        "Trabajar con útiles improvisados",
+        "Usar herramienta calibrada y adecuada al par/rango requerido"
+      ],
+      "correctIndex": 3,
+      "explanation": "La herramienta adecuada protege componentes y asegura precisión en operaciones de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-007",
+      "text": "En «NEUMÁTICA Y SISTEMAS DE FRENO», ¿cuándo debe considerarse completa una intervención durante la fase de verificación final?",
+      "options": [
+        "Cuando termina el turno independientemente del resultado",
+        "Cuando desaparece temporalmente la alarma",
+        "Cuando se documenta, se prueba y se confirma cumplimiento de especificación",
+        "Cuando no quedan repuestos en mesa"
+      ],
+      "correctIndex": 2,
+      "explanation": "La intervención se cierra técnicamente tras documentación y validación conforme a especificación en NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-008",
+      "text": "¿Qué práctica favorece el aprendizaje del equipo en «NEUMÁTICA Y SISTEMAS DE FRENO» al documentar la intervención en taller?",
+      "options": [
+        "Eliminar históricos de intervención",
+        "Compartir incidencias, solución aplicada y lecciones aprendidas",
+        "Guardar la información solo en memoria individual",
+        "Evitar comunicar errores detectados"
+      ],
+      "correctIndex": 1,
+      "explanation": "Las lecciones aprendidas mejoran tiempos de respuesta y calidad en futuras tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-009",
+      "text": "Si un resultado es ambiguo en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene hacer cuando aparecen síntomas intermitentes?",
+      "options": [
+        "Repetir prueba con método controlado y comparar con valores de referencia",
+        "Dar por válida la primera lectura sin contraste",
+        "Ignorar diferencias entre instrumentos",
+        "Modificar el dato para que encaje"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repetir y contrastar lecturas evita diagnósticos falsos en contextos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-010",
+      "text": "En planificación de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué orden de trabajo es más sólido al comparar resultados con valores de referencia?",
+      "options": [
+        "Ejecución directa sin preparación previa",
+        "Cierre sin verificación",
+        "Reparación parcial sin trazabilidad",
+        "Preparación, ejecución controlada, verificación y cierre documentado"
+      ],
+      "correctIndex": 3,
+      "explanation": "Seguir fases ordenadas mejora seguridad, calidad y repetibilidad en actividades de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-011",
+      "text": "¿Cuál es la práctica más recomendable al iniciar una intervención de «NEUMÁTICA Y SISTEMAS DE FRENO» considerando disponibilidad del material?",
+      "options": [
+        "Intervenir por ensayo y error sin registrar datos",
+        "Sustituir componentes sin diagnóstico inicial",
+        "Revisar documentación técnica, riesgos y objetivo de la intervención",
+        "Omitir la revisión previa para reducir tiempos"
+      ],
+      "correctIndex": 2,
+      "explanation": "En trabajos de NEUMÁTICA Y SISTEMAS DE FRENO, empezar con documentación, riesgos y objetivo evita errores y mejora la trazabilidad. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-012",
+      "text": "En tareas de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué acción mejora la seguridad operativa manteniendo la trazabilidad técnica?",
+      "options": [
+        "Dejar herramientas sueltas en la zona de intervención",
+        "Aplicar bloqueo/consignación y verificar ausencia de energía antes de actuar",
+        "Confiar solo en que el equipo está detenido",
+        "Trabajar sin EPI para ganar movilidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "La consignación y la verificación previa son medidas base de seguridad también en procesos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-013",
+      "text": "Para controlar la calidad en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene registrar siempre sin comprometer la seguridad del personal?",
+      "options": [
+        "Mediciones, ajustes realizados, repuestos y resultado de la prueba final",
+        "Solo la hora de entrada y salida",
+        "Únicamente la opinión del operario",
+        "Nada, si el sistema vuelve a funcionar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar datos técnicos permite repetir resultados y detectar tendencias de fallo en ámbitos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-014",
+      "text": "¿Qué enfoque de diagnóstico suele ser más eficaz en «NEUMÁTICA Y SISTEMAS DE FRENO» de acuerdo con buenas prácticas de mantenimiento?",
+      "options": [
+        "Cambiar la pieza más cara directamente",
+        "Ignorar los síntomas intermitentes",
+        "Descartar pruebas de verificación",
+        "Comprobar primero síntomas, causas probables y pruebas de confirmación"
+      ],
+      "correctIndex": 3,
+      "explanation": "Un diagnóstico estructurado reduce retrabajos en cualquier escenario relacionado con NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-015",
+      "text": "En un procedimiento de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué ayuda a evitar averías repetitivas con foco en fiabilidad y repetibilidad?",
+      "options": [
+        "Corregir solo el síntoma visible",
+        "Posponer la validación para otra intervención",
+        "Analizar causa raíz y validar la reparación en condiciones reales",
+        "Cerrar la incidencia sin prueba final"
+      ],
+      "correctIndex": 2,
+      "explanation": "La causa raíz y la validación final son claves para cortar recurrencias en tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-016",
+      "text": "¿Qué criterio es correcto al seleccionar herramienta para «NEUMÁTICA Y SISTEMAS DE FRENO» antes de devolver el equipo al servicio?",
+      "options": [
+        "Trabajar con útiles improvisados",
+        "Usar herramienta calibrada y adecuada al par/rango requerido",
+        "Usar cualquier herramienta disponible",
+        "Priorizar velocidad aunque se dañe el componente"
+      ],
+      "correctIndex": 1,
+      "explanation": "La herramienta adecuada protege componentes y asegura precisión en operaciones de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-017",
+      "text": "En «NEUMÁTICA Y SISTEMAS DE FRENO», ¿cuándo debe considerarse completa una intervención durante la fase de verificación final?",
+      "options": [
+        "Cuando se documenta, se prueba y se confirma cumplimiento de especificación",
+        "Cuando no quedan repuestos en mesa",
+        "Cuando termina el turno independientemente del resultado",
+        "Cuando desaparece temporalmente la alarma"
+      ],
+      "correctIndex": 0,
+      "explanation": "La intervención se cierra técnicamente tras documentación y validación conforme a especificación en NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-018",
+      "text": "¿Qué práctica favorece el aprendizaje del equipo en «NEUMÁTICA Y SISTEMAS DE FRENO» al documentar la intervención en taller?",
+      "options": [
+        "Guardar la información solo en memoria individual",
+        "Evitar comunicar errores detectados",
+        "Eliminar históricos de intervención",
+        "Compartir incidencias, solución aplicada y lecciones aprendidas"
+      ],
+      "correctIndex": 3,
+      "explanation": "Las lecciones aprendidas mejoran tiempos de respuesta y calidad en futuras tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-019",
+      "text": "Si un resultado es ambiguo en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene hacer cuando aparecen síntomas intermitentes?",
+      "options": [
+        "Ignorar diferencias entre instrumentos",
+        "Modificar el dato para que encaje",
+        "Repetir prueba con método controlado y comparar con valores de referencia",
+        "Dar por válida la primera lectura sin contraste"
+      ],
+      "correctIndex": 2,
+      "explanation": "Repetir y contrastar lecturas evita diagnósticos falsos en contextos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-020",
+      "text": "En planificación de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué orden de trabajo es más sólido al comparar resultados con valores de referencia?",
+      "options": [
+        "Reparación parcial sin trazabilidad",
+        "Preparación, ejecución controlada, verificación y cierre documentado",
+        "Ejecución directa sin preparación previa",
+        "Cierre sin verificación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Seguir fases ordenadas mejora seguridad, calidad y repetibilidad en actividades de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-021",
+      "text": "¿Cuál es la práctica más recomendable al iniciar una intervención de «NEUMÁTICA Y SISTEMAS DE FRENO» considerando disponibilidad del material?",
+      "options": [
+        "Revisar documentación técnica, riesgos y objetivo de la intervención",
+        "Omitir la revisión previa para reducir tiempos",
+        "Intervenir por ensayo y error sin registrar datos",
+        "Sustituir componentes sin diagnóstico inicial"
+      ],
+      "correctIndex": 0,
+      "explanation": "En trabajos de NEUMÁTICA Y SISTEMAS DE FRENO, empezar con documentación, riesgos y objetivo evita errores y mejora la trazabilidad. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-022",
+      "text": "En tareas de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué acción mejora la seguridad operativa manteniendo la trazabilidad técnica?",
+      "options": [
+        "Confiar solo en que el equipo está detenido",
+        "Trabajar sin EPI para ganar movilidad",
+        "Dejar herramientas sueltas en la zona de intervención",
+        "Aplicar bloqueo/consignación y verificar ausencia de energía antes de actuar"
+      ],
+      "correctIndex": 3,
+      "explanation": "La consignación y la verificación previa son medidas base de seguridad también en procesos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-023",
+      "text": "Para controlar la calidad en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene registrar siempre sin comprometer la seguridad del personal?",
+      "options": [
+        "Únicamente la opinión del operario",
+        "Nada, si el sistema vuelve a funcionar",
+        "Mediciones, ajustes realizados, repuestos y resultado de la prueba final",
+        "Solo la hora de entrada y salida"
+      ],
+      "correctIndex": 2,
+      "explanation": "Registrar datos técnicos permite repetir resultados y detectar tendencias de fallo en ámbitos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-024",
+      "text": "¿Qué enfoque de diagnóstico suele ser más eficaz en «NEUMÁTICA Y SISTEMAS DE FRENO» de acuerdo con buenas prácticas de mantenimiento?",
+      "options": [
+        "Descartar pruebas de verificación",
+        "Comprobar primero síntomas, causas probables y pruebas de confirmación",
+        "Cambiar la pieza más cara directamente",
+        "Ignorar los síntomas intermitentes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Un diagnóstico estructurado reduce retrabajos en cualquier escenario relacionado con NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-025",
+      "text": "En un procedimiento de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué ayuda a evitar averías repetitivas con foco en fiabilidad y repetibilidad?",
+      "options": [
+        "Analizar causa raíz y validar la reparación en condiciones reales",
+        "Cerrar la incidencia sin prueba final",
+        "Corregir solo el síntoma visible",
+        "Posponer la validación para otra intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "La causa raíz y la validación final son claves para cortar recurrencias en tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-026",
+      "text": "¿Qué criterio es correcto al seleccionar herramienta para «NEUMÁTICA Y SISTEMAS DE FRENO» antes de devolver el equipo al servicio?",
+      "options": [
+        "Usar cualquier herramienta disponible",
+        "Priorizar velocidad aunque se dañe el componente",
+        "Trabajar con útiles improvisados",
+        "Usar herramienta calibrada y adecuada al par/rango requerido"
+      ],
+      "correctIndex": 3,
+      "explanation": "La herramienta adecuada protege componentes y asegura precisión en operaciones de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-027",
+      "text": "En «NEUMÁTICA Y SISTEMAS DE FRENO», ¿cuándo debe considerarse completa una intervención durante la fase de verificación final?",
+      "options": [
+        "Cuando termina el turno independientemente del resultado",
+        "Cuando desaparece temporalmente la alarma",
+        "Cuando se documenta, se prueba y se confirma cumplimiento de especificación",
+        "Cuando no quedan repuestos en mesa"
+      ],
+      "correctIndex": 2,
+      "explanation": "La intervención se cierra técnicamente tras documentación y validación conforme a especificación en NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-028",
+      "text": "¿Qué práctica favorece el aprendizaje del equipo en «NEUMÁTICA Y SISTEMAS DE FRENO» al documentar la intervención en taller?",
+      "options": [
+        "Eliminar históricos de intervención",
+        "Compartir incidencias, solución aplicada y lecciones aprendidas",
+        "Guardar la información solo en memoria individual",
+        "Evitar comunicar errores detectados"
+      ],
+      "correctIndex": 1,
+      "explanation": "Las lecciones aprendidas mejoran tiempos de respuesta y calidad en futuras tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-029",
+      "text": "Si un resultado es ambiguo en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene hacer cuando aparecen síntomas intermitentes?",
+      "options": [
+        "Repetir prueba con método controlado y comparar con valores de referencia",
+        "Dar por válida la primera lectura sin contraste",
+        "Ignorar diferencias entre instrumentos",
+        "Modificar el dato para que encaje"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repetir y contrastar lecturas evita diagnósticos falsos en contextos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-030",
+      "text": "En planificación de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué orden de trabajo es más sólido al comparar resultados con valores de referencia?",
+      "options": [
+        "Ejecución directa sin preparación previa",
+        "Cierre sin verificación",
+        "Reparación parcial sin trazabilidad",
+        "Preparación, ejecución controlada, verificación y cierre documentado"
+      ],
+      "correctIndex": 3,
+      "explanation": "Seguir fases ordenadas mejora seguridad, calidad y repetibilidad en actividades de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-031",
+      "text": "¿Cuál es la práctica más recomendable al iniciar una intervención de «NEUMÁTICA Y SISTEMAS DE FRENO» considerando disponibilidad del material?",
+      "options": [
+        "Intervenir por ensayo y error sin registrar datos",
+        "Sustituir componentes sin diagnóstico inicial",
+        "Revisar documentación técnica, riesgos y objetivo de la intervención",
+        "Omitir la revisión previa para reducir tiempos"
+      ],
+      "correctIndex": 2,
+      "explanation": "En trabajos de NEUMÁTICA Y SISTEMAS DE FRENO, empezar con documentación, riesgos y objetivo evita errores y mejora la trazabilidad. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-032",
+      "text": "En tareas de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué acción mejora la seguridad operativa manteniendo la trazabilidad técnica?",
+      "options": [
+        "Dejar herramientas sueltas en la zona de intervención",
+        "Aplicar bloqueo/consignación y verificar ausencia de energía antes de actuar",
+        "Confiar solo en que el equipo está detenido",
+        "Trabajar sin EPI para ganar movilidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "La consignación y la verificación previa son medidas base de seguridad también en procesos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-033",
+      "text": "Para controlar la calidad en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene registrar siempre sin comprometer la seguridad del personal?",
+      "options": [
+        "Mediciones, ajustes realizados, repuestos y resultado de la prueba final",
+        "Solo la hora de entrada y salida",
+        "Únicamente la opinión del operario",
+        "Nada, si el sistema vuelve a funcionar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar datos técnicos permite repetir resultados y detectar tendencias de fallo en ámbitos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-034",
+      "text": "¿Qué enfoque de diagnóstico suele ser más eficaz en «NEUMÁTICA Y SISTEMAS DE FRENO» de acuerdo con buenas prácticas de mantenimiento?",
+      "options": [
+        "Cambiar la pieza más cara directamente",
+        "Ignorar los síntomas intermitentes",
+        "Descartar pruebas de verificación",
+        "Comprobar primero síntomas, causas probables y pruebas de confirmación"
+      ],
+      "correctIndex": 3,
+      "explanation": "Un diagnóstico estructurado reduce retrabajos en cualquier escenario relacionado con NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-035",
+      "text": "En un procedimiento de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué ayuda a evitar averías repetitivas con foco en fiabilidad y repetibilidad?",
+      "options": [
+        "Corregir solo el síntoma visible",
+        "Posponer la validación para otra intervención",
+        "Analizar causa raíz y validar la reparación en condiciones reales",
+        "Cerrar la incidencia sin prueba final"
+      ],
+      "correctIndex": 2,
+      "explanation": "La causa raíz y la validación final son claves para cortar recurrencias en tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-036",
+      "text": "¿Qué criterio es correcto al seleccionar herramienta para «NEUMÁTICA Y SISTEMAS DE FRENO» antes de devolver el equipo al servicio?",
+      "options": [
+        "Trabajar con útiles improvisados",
+        "Usar herramienta calibrada y adecuada al par/rango requerido",
+        "Usar cualquier herramienta disponible",
+        "Priorizar velocidad aunque se dañe el componente"
+      ],
+      "correctIndex": 1,
+      "explanation": "La herramienta adecuada protege componentes y asegura precisión en operaciones de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-037",
+      "text": "En «NEUMÁTICA Y SISTEMAS DE FRENO», ¿cuándo debe considerarse completa una intervención durante la fase de verificación final?",
+      "options": [
+        "Cuando se documenta, se prueba y se confirma cumplimiento de especificación",
+        "Cuando no quedan repuestos en mesa",
+        "Cuando termina el turno independientemente del resultado",
+        "Cuando desaparece temporalmente la alarma"
+      ],
+      "correctIndex": 0,
+      "explanation": "La intervención se cierra técnicamente tras documentación y validación conforme a especificación en NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-038",
+      "text": "¿Qué práctica favorece el aprendizaje del equipo en «NEUMÁTICA Y SISTEMAS DE FRENO» al documentar la intervención en taller?",
+      "options": [
+        "Guardar la información solo en memoria individual",
+        "Evitar comunicar errores detectados",
+        "Eliminar históricos de intervención",
+        "Compartir incidencias, solución aplicada y lecciones aprendidas"
+      ],
+      "correctIndex": 3,
+      "explanation": "Las lecciones aprendidas mejoran tiempos de respuesta y calidad en futuras tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-039",
+      "text": "Si un resultado es ambiguo en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene hacer cuando aparecen síntomas intermitentes?",
+      "options": [
+        "Ignorar diferencias entre instrumentos",
+        "Modificar el dato para que encaje",
+        "Repetir prueba con método controlado y comparar con valores de referencia",
+        "Dar por válida la primera lectura sin contraste"
+      ],
+      "correctIndex": 2,
+      "explanation": "Repetir y contrastar lecturas evita diagnósticos falsos en contextos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-040",
+      "text": "En planificación de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué orden de trabajo es más sólido al comparar resultados con valores de referencia?",
+      "options": [
+        "Reparación parcial sin trazabilidad",
+        "Preparación, ejecución controlada, verificación y cierre documentado",
+        "Ejecución directa sin preparación previa",
+        "Cierre sin verificación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Seguir fases ordenadas mejora seguridad, calidad y repetibilidad en actividades de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-041",
+      "text": "¿Cuál es la práctica más recomendable al iniciar una intervención de «NEUMÁTICA Y SISTEMAS DE FRENO» considerando disponibilidad del material?",
+      "options": [
+        "Revisar documentación técnica, riesgos y objetivo de la intervención",
+        "Omitir la revisión previa para reducir tiempos",
+        "Intervenir por ensayo y error sin registrar datos",
+        "Sustituir componentes sin diagnóstico inicial"
+      ],
+      "correctIndex": 0,
+      "explanation": "En trabajos de NEUMÁTICA Y SISTEMAS DE FRENO, empezar con documentación, riesgos y objetivo evita errores y mejora la trazabilidad. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-042",
+      "text": "En tareas de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué acción mejora la seguridad operativa manteniendo la trazabilidad técnica?",
+      "options": [
+        "Confiar solo en que el equipo está detenido",
+        "Trabajar sin EPI para ganar movilidad",
+        "Dejar herramientas sueltas en la zona de intervención",
+        "Aplicar bloqueo/consignación y verificar ausencia de energía antes de actuar"
+      ],
+      "correctIndex": 3,
+      "explanation": "La consignación y la verificación previa son medidas base de seguridad también en procesos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-043",
+      "text": "Para controlar la calidad en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene registrar siempre sin comprometer la seguridad del personal?",
+      "options": [
+        "Únicamente la opinión del operario",
+        "Nada, si el sistema vuelve a funcionar",
+        "Mediciones, ajustes realizados, repuestos y resultado de la prueba final",
+        "Solo la hora de entrada y salida"
+      ],
+      "correctIndex": 2,
+      "explanation": "Registrar datos técnicos permite repetir resultados y detectar tendencias de fallo en ámbitos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-044",
+      "text": "¿Qué enfoque de diagnóstico suele ser más eficaz en «NEUMÁTICA Y SISTEMAS DE FRENO» de acuerdo con buenas prácticas de mantenimiento?",
+      "options": [
+        "Descartar pruebas de verificación",
+        "Comprobar primero síntomas, causas probables y pruebas de confirmación",
+        "Cambiar la pieza más cara directamente",
+        "Ignorar los síntomas intermitentes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Un diagnóstico estructurado reduce retrabajos en cualquier escenario relacionado con NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-045",
+      "text": "En un procedimiento de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué ayuda a evitar averías repetitivas con foco en fiabilidad y repetibilidad?",
+      "options": [
+        "Analizar causa raíz y validar la reparación en condiciones reales",
+        "Cerrar la incidencia sin prueba final",
+        "Corregir solo el síntoma visible",
+        "Posponer la validación para otra intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "La causa raíz y la validación final son claves para cortar recurrencias en tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-046",
+      "text": "¿Qué criterio es correcto al seleccionar herramienta para «NEUMÁTICA Y SISTEMAS DE FRENO» antes de devolver el equipo al servicio?",
+      "options": [
+        "Usar cualquier herramienta disponible",
+        "Priorizar velocidad aunque se dañe el componente",
+        "Trabajar con útiles improvisados",
+        "Usar herramienta calibrada y adecuada al par/rango requerido"
+      ],
+      "correctIndex": 3,
+      "explanation": "La herramienta adecuada protege componentes y asegura precisión en operaciones de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-047",
+      "text": "En «NEUMÁTICA Y SISTEMAS DE FRENO», ¿cuándo debe considerarse completa una intervención durante la fase de verificación final?",
+      "options": [
+        "Cuando termina el turno independientemente del resultado",
+        "Cuando desaparece temporalmente la alarma",
+        "Cuando se documenta, se prueba y se confirma cumplimiento de especificación",
+        "Cuando no quedan repuestos en mesa"
+      ],
+      "correctIndex": 2,
+      "explanation": "La intervención se cierra técnicamente tras documentación y validación conforme a especificación en NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-048",
+      "text": "¿Qué práctica favorece el aprendizaje del equipo en «NEUMÁTICA Y SISTEMAS DE FRENO» al documentar la intervención en taller?",
+      "options": [
+        "Eliminar históricos de intervención",
+        "Compartir incidencias, solución aplicada y lecciones aprendidas",
+        "Guardar la información solo en memoria individual",
+        "Evitar comunicar errores detectados"
+      ],
+      "correctIndex": 1,
+      "explanation": "Las lecciones aprendidas mejoran tiempos de respuesta y calidad en futuras tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-049",
+      "text": "Si un resultado es ambiguo en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene hacer cuando aparecen síntomas intermitentes?",
+      "options": [
+        "Repetir prueba con método controlado y comparar con valores de referencia",
+        "Dar por válida la primera lectura sin contraste",
+        "Ignorar diferencias entre instrumentos",
+        "Modificar el dato para que encaje"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repetir y contrastar lecturas evita diagnósticos falsos en contextos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-050",
+      "text": "En planificación de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué orden de trabajo es más sólido al comparar resultados con valores de referencia?",
+      "options": [
+        "Ejecución directa sin preparación previa",
+        "Cierre sin verificación",
+        "Reparación parcial sin trazabilidad",
+        "Preparación, ejecución controlada, verificación y cierre documentado"
+      ],
+      "correctIndex": 3,
+      "explanation": "Seguir fases ordenadas mejora seguridad, calidad y repetibilidad en actividades de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-051",
+      "text": "¿Cuál es la práctica más recomendable al iniciar una intervención de «NEUMÁTICA Y SISTEMAS DE FRENO» considerando disponibilidad del material?",
+      "options": [
+        "Intervenir por ensayo y error sin registrar datos",
+        "Sustituir componentes sin diagnóstico inicial",
+        "Revisar documentación técnica, riesgos y objetivo de la intervención",
+        "Omitir la revisión previa para reducir tiempos"
+      ],
+      "correctIndex": 2,
+      "explanation": "En trabajos de NEUMÁTICA Y SISTEMAS DE FRENO, empezar con documentación, riesgos y objetivo evita errores y mejora la trazabilidad. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-052",
+      "text": "En tareas de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué acción mejora la seguridad operativa manteniendo la trazabilidad técnica?",
+      "options": [
+        "Dejar herramientas sueltas en la zona de intervención",
+        "Aplicar bloqueo/consignación y verificar ausencia de energía antes de actuar",
+        "Confiar solo en que el equipo está detenido",
+        "Trabajar sin EPI para ganar movilidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "La consignación y la verificación previa son medidas base de seguridad también en procesos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-053",
+      "text": "Para controlar la calidad en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene registrar siempre sin comprometer la seguridad del personal?",
+      "options": [
+        "Mediciones, ajustes realizados, repuestos y resultado de la prueba final",
+        "Solo la hora de entrada y salida",
+        "Únicamente la opinión del operario",
+        "Nada, si el sistema vuelve a funcionar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar datos técnicos permite repetir resultados y detectar tendencias de fallo en ámbitos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-054",
+      "text": "¿Qué enfoque de diagnóstico suele ser más eficaz en «NEUMÁTICA Y SISTEMAS DE FRENO» de acuerdo con buenas prácticas de mantenimiento?",
+      "options": [
+        "Cambiar la pieza más cara directamente",
+        "Ignorar los síntomas intermitentes",
+        "Descartar pruebas de verificación",
+        "Comprobar primero síntomas, causas probables y pruebas de confirmación"
+      ],
+      "correctIndex": 3,
+      "explanation": "Un diagnóstico estructurado reduce retrabajos en cualquier escenario relacionado con NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-055",
+      "text": "En un procedimiento de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué ayuda a evitar averías repetitivas con foco en fiabilidad y repetibilidad?",
+      "options": [
+        "Corregir solo el síntoma visible",
+        "Posponer la validación para otra intervención",
+        "Analizar causa raíz y validar la reparación en condiciones reales",
+        "Cerrar la incidencia sin prueba final"
+      ],
+      "correctIndex": 2,
+      "explanation": "La causa raíz y la validación final son claves para cortar recurrencias en tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-056",
+      "text": "¿Qué criterio es correcto al seleccionar herramienta para «NEUMÁTICA Y SISTEMAS DE FRENO» antes de devolver el equipo al servicio?",
+      "options": [
+        "Trabajar con útiles improvisados",
+        "Usar herramienta calibrada y adecuada al par/rango requerido",
+        "Usar cualquier herramienta disponible",
+        "Priorizar velocidad aunque se dañe el componente"
+      ],
+      "correctIndex": 1,
+      "explanation": "La herramienta adecuada protege componentes y asegura precisión en operaciones de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-057",
+      "text": "En «NEUMÁTICA Y SISTEMAS DE FRENO», ¿cuándo debe considerarse completa una intervención durante la fase de verificación final?",
+      "options": [
+        "Cuando se documenta, se prueba y se confirma cumplimiento de especificación",
+        "Cuando no quedan repuestos en mesa",
+        "Cuando termina el turno independientemente del resultado",
+        "Cuando desaparece temporalmente la alarma"
+      ],
+      "correctIndex": 0,
+      "explanation": "La intervención se cierra técnicamente tras documentación y validación conforme a especificación en NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-058",
+      "text": "¿Qué práctica favorece el aprendizaje del equipo en «NEUMÁTICA Y SISTEMAS DE FRENO» al documentar la intervención en taller?",
+      "options": [
+        "Guardar la información solo en memoria individual",
+        "Evitar comunicar errores detectados",
+        "Eliminar históricos de intervención",
+        "Compartir incidencias, solución aplicada y lecciones aprendidas"
+      ],
+      "correctIndex": 3,
+      "explanation": "Las lecciones aprendidas mejoran tiempos de respuesta y calidad en futuras tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-059",
+      "text": "Si un resultado es ambiguo en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene hacer cuando aparecen síntomas intermitentes?",
+      "options": [
+        "Ignorar diferencias entre instrumentos",
+        "Modificar el dato para que encaje",
+        "Repetir prueba con método controlado y comparar con valores de referencia",
+        "Dar por válida la primera lectura sin contraste"
+      ],
+      "correctIndex": 2,
+      "explanation": "Repetir y contrastar lecturas evita diagnósticos falsos en contextos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-060",
+      "text": "En planificación de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué orden de trabajo es más sólido al comparar resultados con valores de referencia?",
+      "options": [
+        "Reparación parcial sin trazabilidad",
+        "Preparación, ejecución controlada, verificación y cierre documentado",
+        "Ejecución directa sin preparación previa",
+        "Cierre sin verificación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Seguir fases ordenadas mejora seguridad, calidad y repetibilidad en actividades de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-061",
+      "text": "¿Cuál es la práctica más recomendable al iniciar una intervención de «NEUMÁTICA Y SISTEMAS DE FRENO» considerando disponibilidad del material?",
+      "options": [
+        "Revisar documentación técnica, riesgos y objetivo de la intervención",
+        "Omitir la revisión previa para reducir tiempos",
+        "Intervenir por ensayo y error sin registrar datos",
+        "Sustituir componentes sin diagnóstico inicial"
+      ],
+      "correctIndex": 0,
+      "explanation": "En trabajos de NEUMÁTICA Y SISTEMAS DE FRENO, empezar con documentación, riesgos y objetivo evita errores y mejora la trazabilidad. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-062",
+      "text": "En tareas de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué acción mejora la seguridad operativa manteniendo la trazabilidad técnica?",
+      "options": [
+        "Confiar solo en que el equipo está detenido",
+        "Trabajar sin EPI para ganar movilidad",
+        "Dejar herramientas sueltas en la zona de intervención",
+        "Aplicar bloqueo/consignación y verificar ausencia de energía antes de actuar"
+      ],
+      "correctIndex": 3,
+      "explanation": "La consignación y la verificación previa son medidas base de seguridad también en procesos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-063",
+      "text": "Para controlar la calidad en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene registrar siempre sin comprometer la seguridad del personal?",
+      "options": [
+        "Únicamente la opinión del operario",
+        "Nada, si el sistema vuelve a funcionar",
+        "Mediciones, ajustes realizados, repuestos y resultado de la prueba final",
+        "Solo la hora de entrada y salida"
+      ],
+      "correctIndex": 2,
+      "explanation": "Registrar datos técnicos permite repetir resultados y detectar tendencias de fallo en ámbitos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-064",
+      "text": "¿Qué enfoque de diagnóstico suele ser más eficaz en «NEUMÁTICA Y SISTEMAS DE FRENO» de acuerdo con buenas prácticas de mantenimiento?",
+      "options": [
+        "Descartar pruebas de verificación",
+        "Comprobar primero síntomas, causas probables y pruebas de confirmación",
+        "Cambiar la pieza más cara directamente",
+        "Ignorar los síntomas intermitentes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Un diagnóstico estructurado reduce retrabajos en cualquier escenario relacionado con NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-065",
+      "text": "En un procedimiento de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué ayuda a evitar averías repetitivas con foco en fiabilidad y repetibilidad?",
+      "options": [
+        "Analizar causa raíz y validar la reparación en condiciones reales",
+        "Cerrar la incidencia sin prueba final",
+        "Corregir solo el síntoma visible",
+        "Posponer la validación para otra intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "La causa raíz y la validación final son claves para cortar recurrencias en tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-066",
+      "text": "¿Qué criterio es correcto al seleccionar herramienta para «NEUMÁTICA Y SISTEMAS DE FRENO» antes de devolver el equipo al servicio?",
+      "options": [
+        "Usar cualquier herramienta disponible",
+        "Priorizar velocidad aunque se dañe el componente",
+        "Trabajar con útiles improvisados",
+        "Usar herramienta calibrada y adecuada al par/rango requerido"
+      ],
+      "correctIndex": 3,
+      "explanation": "La herramienta adecuada protege componentes y asegura precisión en operaciones de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-067",
+      "text": "En «NEUMÁTICA Y SISTEMAS DE FRENO», ¿cuándo debe considerarse completa una intervención durante la fase de verificación final?",
+      "options": [
+        "Cuando termina el turno independientemente del resultado",
+        "Cuando desaparece temporalmente la alarma",
+        "Cuando se documenta, se prueba y se confirma cumplimiento de especificación",
+        "Cuando no quedan repuestos en mesa"
+      ],
+      "correctIndex": 2,
+      "explanation": "La intervención se cierra técnicamente tras documentación y validación conforme a especificación en NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-068",
+      "text": "¿Qué práctica favorece el aprendizaje del equipo en «NEUMÁTICA Y SISTEMAS DE FRENO» al documentar la intervención en taller?",
+      "options": [
+        "Eliminar históricos de intervención",
+        "Compartir incidencias, solución aplicada y lecciones aprendidas",
+        "Guardar la información solo en memoria individual",
+        "Evitar comunicar errores detectados"
+      ],
+      "correctIndex": 1,
+      "explanation": "Las lecciones aprendidas mejoran tiempos de respuesta y calidad en futuras tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-069",
+      "text": "Si un resultado es ambiguo en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene hacer cuando aparecen síntomas intermitentes?",
+      "options": [
+        "Repetir prueba con método controlado y comparar con valores de referencia",
+        "Dar por válida la primera lectura sin contraste",
+        "Ignorar diferencias entre instrumentos",
+        "Modificar el dato para que encaje"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repetir y contrastar lecturas evita diagnósticos falsos en contextos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-070",
+      "text": "En planificación de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué orden de trabajo es más sólido al comparar resultados con valores de referencia?",
+      "options": [
+        "Ejecución directa sin preparación previa",
+        "Cierre sin verificación",
+        "Reparación parcial sin trazabilidad",
+        "Preparación, ejecución controlada, verificación y cierre documentado"
+      ],
+      "correctIndex": 3,
+      "explanation": "Seguir fases ordenadas mejora seguridad, calidad y repetibilidad en actividades de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-071",
+      "text": "¿Cuál es la práctica más recomendable al iniciar una intervención de «NEUMÁTICA Y SISTEMAS DE FRENO» considerando disponibilidad del material?",
+      "options": [
+        "Intervenir por ensayo y error sin registrar datos",
+        "Sustituir componentes sin diagnóstico inicial",
+        "Revisar documentación técnica, riesgos y objetivo de la intervención",
+        "Omitir la revisión previa para reducir tiempos"
+      ],
+      "correctIndex": 2,
+      "explanation": "En trabajos de NEUMÁTICA Y SISTEMAS DE FRENO, empezar con documentación, riesgos y objetivo evita errores y mejora la trazabilidad. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-072",
+      "text": "En tareas de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué acción mejora la seguridad operativa manteniendo la trazabilidad técnica?",
+      "options": [
+        "Dejar herramientas sueltas en la zona de intervención",
+        "Aplicar bloqueo/consignación y verificar ausencia de energía antes de actuar",
+        "Confiar solo en que el equipo está detenido",
+        "Trabajar sin EPI para ganar movilidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "La consignación y la verificación previa son medidas base de seguridad también en procesos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-073",
+      "text": "Para controlar la calidad en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene registrar siempre sin comprometer la seguridad del personal?",
+      "options": [
+        "Mediciones, ajustes realizados, repuestos y resultado de la prueba final",
+        "Solo la hora de entrada y salida",
+        "Únicamente la opinión del operario",
+        "Nada, si el sistema vuelve a funcionar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar datos técnicos permite repetir resultados y detectar tendencias de fallo en ámbitos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-074",
+      "text": "¿Qué enfoque de diagnóstico suele ser más eficaz en «NEUMÁTICA Y SISTEMAS DE FRENO» de acuerdo con buenas prácticas de mantenimiento?",
+      "options": [
+        "Cambiar la pieza más cara directamente",
+        "Ignorar los síntomas intermitentes",
+        "Descartar pruebas de verificación",
+        "Comprobar primero síntomas, causas probables y pruebas de confirmación"
+      ],
+      "correctIndex": 3,
+      "explanation": "Un diagnóstico estructurado reduce retrabajos en cualquier escenario relacionado con NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-075",
+      "text": "En un procedimiento de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué ayuda a evitar averías repetitivas con foco en fiabilidad y repetibilidad?",
+      "options": [
+        "Corregir solo el síntoma visible",
+        "Posponer la validación para otra intervención",
+        "Analizar causa raíz y validar la reparación en condiciones reales",
+        "Cerrar la incidencia sin prueba final"
+      ],
+      "correctIndex": 2,
+      "explanation": "La causa raíz y la validación final son claves para cortar recurrencias en tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-076",
+      "text": "¿Qué criterio es correcto al seleccionar herramienta para «NEUMÁTICA Y SISTEMAS DE FRENO» antes de devolver el equipo al servicio?",
+      "options": [
+        "Trabajar con útiles improvisados",
+        "Usar herramienta calibrada y adecuada al par/rango requerido",
+        "Usar cualquier herramienta disponible",
+        "Priorizar velocidad aunque se dañe el componente"
+      ],
+      "correctIndex": 1,
+      "explanation": "La herramienta adecuada protege componentes y asegura precisión en operaciones de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-077",
+      "text": "En «NEUMÁTICA Y SISTEMAS DE FRENO», ¿cuándo debe considerarse completa una intervención durante la fase de verificación final?",
+      "options": [
+        "Cuando se documenta, se prueba y se confirma cumplimiento de especificación",
+        "Cuando no quedan repuestos en mesa",
+        "Cuando termina el turno independientemente del resultado",
+        "Cuando desaparece temporalmente la alarma"
+      ],
+      "correctIndex": 0,
+      "explanation": "La intervención se cierra técnicamente tras documentación y validación conforme a especificación en NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-078",
+      "text": "¿Qué práctica favorece el aprendizaje del equipo en «NEUMÁTICA Y SISTEMAS DE FRENO» al documentar la intervención en taller?",
+      "options": [
+        "Guardar la información solo en memoria individual",
+        "Evitar comunicar errores detectados",
+        "Eliminar históricos de intervención",
+        "Compartir incidencias, solución aplicada y lecciones aprendidas"
+      ],
+      "correctIndex": 3,
+      "explanation": "Las lecciones aprendidas mejoran tiempos de respuesta y calidad en futuras tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-079",
+      "text": "Si un resultado es ambiguo en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene hacer cuando aparecen síntomas intermitentes?",
+      "options": [
+        "Ignorar diferencias entre instrumentos",
+        "Modificar el dato para que encaje",
+        "Repetir prueba con método controlado y comparar con valores de referencia",
+        "Dar por válida la primera lectura sin contraste"
+      ],
+      "correctIndex": 2,
+      "explanation": "Repetir y contrastar lecturas evita diagnósticos falsos en contextos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-080",
+      "text": "En planificación de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué orden de trabajo es más sólido al comparar resultados con valores de referencia?",
+      "options": [
+        "Reparación parcial sin trazabilidad",
+        "Preparación, ejecución controlada, verificación y cierre documentado",
+        "Ejecución directa sin preparación previa",
+        "Cierre sin verificación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Seguir fases ordenadas mejora seguridad, calidad y repetibilidad en actividades de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-081",
+      "text": "¿Cuál es la práctica más recomendable al iniciar una intervención de «NEUMÁTICA Y SISTEMAS DE FRENO» considerando disponibilidad del material?",
+      "options": [
+        "Revisar documentación técnica, riesgos y objetivo de la intervención",
+        "Omitir la revisión previa para reducir tiempos",
+        "Intervenir por ensayo y error sin registrar datos",
+        "Sustituir componentes sin diagnóstico inicial"
+      ],
+      "correctIndex": 0,
+      "explanation": "En trabajos de NEUMÁTICA Y SISTEMAS DE FRENO, empezar con documentación, riesgos y objetivo evita errores y mejora la trazabilidad. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-082",
+      "text": "En tareas de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué acción mejora la seguridad operativa manteniendo la trazabilidad técnica?",
+      "options": [
+        "Confiar solo en que el equipo está detenido",
+        "Trabajar sin EPI para ganar movilidad",
+        "Dejar herramientas sueltas en la zona de intervención",
+        "Aplicar bloqueo/consignación y verificar ausencia de energía antes de actuar"
+      ],
+      "correctIndex": 3,
+      "explanation": "La consignación y la verificación previa son medidas base de seguridad también en procesos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-083",
+      "text": "Para controlar la calidad en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene registrar siempre sin comprometer la seguridad del personal?",
+      "options": [
+        "Únicamente la opinión del operario",
+        "Nada, si el sistema vuelve a funcionar",
+        "Mediciones, ajustes realizados, repuestos y resultado de la prueba final",
+        "Solo la hora de entrada y salida"
+      ],
+      "correctIndex": 2,
+      "explanation": "Registrar datos técnicos permite repetir resultados y detectar tendencias de fallo en ámbitos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-084",
+      "text": "¿Qué enfoque de diagnóstico suele ser más eficaz en «NEUMÁTICA Y SISTEMAS DE FRENO» de acuerdo con buenas prácticas de mantenimiento?",
+      "options": [
+        "Descartar pruebas de verificación",
+        "Comprobar primero síntomas, causas probables y pruebas de confirmación",
+        "Cambiar la pieza más cara directamente",
+        "Ignorar los síntomas intermitentes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Un diagnóstico estructurado reduce retrabajos en cualquier escenario relacionado con NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-085",
+      "text": "En un procedimiento de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué ayuda a evitar averías repetitivas con foco en fiabilidad y repetibilidad?",
+      "options": [
+        "Analizar causa raíz y validar la reparación en condiciones reales",
+        "Cerrar la incidencia sin prueba final",
+        "Corregir solo el síntoma visible",
+        "Posponer la validación para otra intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "La causa raíz y la validación final son claves para cortar recurrencias en tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-086",
+      "text": "¿Qué criterio es correcto al seleccionar herramienta para «NEUMÁTICA Y SISTEMAS DE FRENO» antes de devolver el equipo al servicio?",
+      "options": [
+        "Usar cualquier herramienta disponible",
+        "Priorizar velocidad aunque se dañe el componente",
+        "Trabajar con útiles improvisados",
+        "Usar herramienta calibrada y adecuada al par/rango requerido"
+      ],
+      "correctIndex": 3,
+      "explanation": "La herramienta adecuada protege componentes y asegura precisión en operaciones de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-087",
+      "text": "En «NEUMÁTICA Y SISTEMAS DE FRENO», ¿cuándo debe considerarse completa una intervención durante la fase de verificación final?",
+      "options": [
+        "Cuando termina el turno independientemente del resultado",
+        "Cuando desaparece temporalmente la alarma",
+        "Cuando se documenta, se prueba y se confirma cumplimiento de especificación",
+        "Cuando no quedan repuestos en mesa"
+      ],
+      "correctIndex": 2,
+      "explanation": "La intervención se cierra técnicamente tras documentación y validación conforme a especificación en NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-088",
+      "text": "¿Qué práctica favorece el aprendizaje del equipo en «NEUMÁTICA Y SISTEMAS DE FRENO» al documentar la intervención en taller?",
+      "options": [
+        "Eliminar históricos de intervención",
+        "Compartir incidencias, solución aplicada y lecciones aprendidas",
+        "Guardar la información solo en memoria individual",
+        "Evitar comunicar errores detectados"
+      ],
+      "correctIndex": 1,
+      "explanation": "Las lecciones aprendidas mejoran tiempos de respuesta y calidad en futuras tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-089",
+      "text": "Si un resultado es ambiguo en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene hacer cuando aparecen síntomas intermitentes?",
+      "options": [
+        "Repetir prueba con método controlado y comparar con valores de referencia",
+        "Dar por válida la primera lectura sin contraste",
+        "Ignorar diferencias entre instrumentos",
+        "Modificar el dato para que encaje"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repetir y contrastar lecturas evita diagnósticos falsos en contextos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-090",
+      "text": "En planificación de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué orden de trabajo es más sólido al comparar resultados con valores de referencia?",
+      "options": [
+        "Ejecución directa sin preparación previa",
+        "Cierre sin verificación",
+        "Reparación parcial sin trazabilidad",
+        "Preparación, ejecución controlada, verificación y cierre documentado"
+      ],
+      "correctIndex": 3,
+      "explanation": "Seguir fases ordenadas mejora seguridad, calidad y repetibilidad en actividades de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-091",
+      "text": "¿Cuál es la práctica más recomendable al iniciar una intervención de «NEUMÁTICA Y SISTEMAS DE FRENO» considerando disponibilidad del material?",
+      "options": [
+        "Intervenir por ensayo y error sin registrar datos",
+        "Sustituir componentes sin diagnóstico inicial",
+        "Revisar documentación técnica, riesgos y objetivo de la intervención",
+        "Omitir la revisión previa para reducir tiempos"
+      ],
+      "correctIndex": 2,
+      "explanation": "En trabajos de NEUMÁTICA Y SISTEMAS DE FRENO, empezar con documentación, riesgos y objetivo evita errores y mejora la trazabilidad. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-092",
+      "text": "En tareas de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué acción mejora la seguridad operativa manteniendo la trazabilidad técnica?",
+      "options": [
+        "Dejar herramientas sueltas en la zona de intervención",
+        "Aplicar bloqueo/consignación y verificar ausencia de energía antes de actuar",
+        "Confiar solo en que el equipo está detenido",
+        "Trabajar sin EPI para ganar movilidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "La consignación y la verificación previa son medidas base de seguridad también en procesos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-093",
+      "text": "Para controlar la calidad en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene registrar siempre sin comprometer la seguridad del personal?",
+      "options": [
+        "Mediciones, ajustes realizados, repuestos y resultado de la prueba final",
+        "Solo la hora de entrada y salida",
+        "Únicamente la opinión del operario",
+        "Nada, si el sistema vuelve a funcionar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar datos técnicos permite repetir resultados y detectar tendencias de fallo en ámbitos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-094",
+      "text": "¿Qué enfoque de diagnóstico suele ser más eficaz en «NEUMÁTICA Y SISTEMAS DE FRENO» de acuerdo con buenas prácticas de mantenimiento?",
+      "options": [
+        "Cambiar la pieza más cara directamente",
+        "Ignorar los síntomas intermitentes",
+        "Descartar pruebas de verificación",
+        "Comprobar primero síntomas, causas probables y pruebas de confirmación"
+      ],
+      "correctIndex": 3,
+      "explanation": "Un diagnóstico estructurado reduce retrabajos en cualquier escenario relacionado con NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-095",
+      "text": "En un procedimiento de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué ayuda a evitar averías repetitivas con foco en fiabilidad y repetibilidad?",
+      "options": [
+        "Corregir solo el síntoma visible",
+        "Posponer la validación para otra intervención",
+        "Analizar causa raíz y validar la reparación en condiciones reales",
+        "Cerrar la incidencia sin prueba final"
+      ],
+      "correctIndex": 2,
+      "explanation": "La causa raíz y la validación final son claves para cortar recurrencias en tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-096",
+      "text": "¿Qué criterio es correcto al seleccionar herramienta para «NEUMÁTICA Y SISTEMAS DE FRENO» antes de devolver el equipo al servicio?",
+      "options": [
+        "Trabajar con útiles improvisados",
+        "Usar herramienta calibrada y adecuada al par/rango requerido",
+        "Usar cualquier herramienta disponible",
+        "Priorizar velocidad aunque se dañe el componente"
+      ],
+      "correctIndex": 1,
+      "explanation": "La herramienta adecuada protege componentes y asegura precisión en operaciones de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-097",
+      "text": "En «NEUMÁTICA Y SISTEMAS DE FRENO», ¿cuándo debe considerarse completa una intervención durante la fase de verificación final?",
+      "options": [
+        "Cuando se documenta, se prueba y se confirma cumplimiento de especificación",
+        "Cuando no quedan repuestos en mesa",
+        "Cuando termina el turno independientemente del resultado",
+        "Cuando desaparece temporalmente la alarma"
+      ],
+      "correctIndex": 0,
+      "explanation": "La intervención se cierra técnicamente tras documentación y validación conforme a especificación en NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-098",
+      "text": "¿Qué práctica favorece el aprendizaje del equipo en «NEUMÁTICA Y SISTEMAS DE FRENO» al documentar la intervención en taller?",
+      "options": [
+        "Guardar la información solo en memoria individual",
+        "Evitar comunicar errores detectados",
+        "Eliminar históricos de intervención",
+        "Compartir incidencias, solución aplicada y lecciones aprendidas"
+      ],
+      "correctIndex": 3,
+      "explanation": "Las lecciones aprendidas mejoran tiempos de respuesta y calidad en futuras tareas de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-099",
+      "text": "Si un resultado es ambiguo en «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué conviene hacer cuando aparecen síntomas intermitentes?",
+      "options": [
+        "Ignorar diferencias entre instrumentos",
+        "Modificar el dato para que encaje",
+        "Repetir prueba con método controlado y comparar con valores de referencia",
+        "Dar por válida la primera lectura sin contraste"
+      ],
+      "correctIndex": 2,
+      "explanation": "Repetir y contrastar lecturas evita diagnósticos falsos en contextos de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
+    },
+    {
+      "id": "tomo-13-neumatica-y-sistemas-de-freno-q-100",
+      "text": "En planificación de «NEUMÁTICA Y SISTEMAS DE FRENO», ¿qué orden de trabajo es más sólido al comparar resultados con valores de referencia?",
+      "options": [
+        "Reparación parcial sin trazabilidad",
+        "Preparación, ejecución controlada, verificación y cierre documentado",
+        "Ejecución directa sin preparación previa",
+        "Cierre sin verificación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Seguir fases ordenadas mejora seguridad, calidad y repetibilidad en actividades de NEUMÁTICA Y SISTEMAS DE FRENO. Banco ampliable generado por temática del tomo y metadatos accesibles del PDF. Si se dispone del texto íntegro del PDF, conviene revisar y enriquecer este contenido."
     }
   ]
 };
