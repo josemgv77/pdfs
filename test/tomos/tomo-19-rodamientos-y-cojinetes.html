@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tomo 19 — RODAMIENTOS Y COJINETES · Test</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="test-page">
+    <header class="site-header compact">
+      <a class="button ghost" href="../index.html">← Volver al índice</a>
+      <span class="header-badge">Tomo 19</span>
+    </header>
+
+    <main class="page-shell" id="test-app">
+      <section class="hero test-hero">
+        <div>
+          <p class="eyebrow" id="test-badge">Tomo 19</p>
+          <h1 id="test-title">Tomo 19 — RODAMIENTOS Y COJINETES</h1>
+          <p class="lead" id="test-description"></p>
+        </div>
+        <div class="hero-panel">
+          <p><strong>PDF fuente:</strong> <a id="source-pdf-link" href="../../tomo%2019%20RODAMIENTOS%20Y%20COJINETES.pdf" target="_blank" rel="noreferrer">tomo 19 RODAMIENTOS Y COJINETES.pdf</a></p>
+          <p><strong>Preguntas cargadas:</strong> <span id="status-total"></span></p>
+          <p><strong>Modo actual:</strong> <span id="status-mode">Test completo</span></p>
+        </div>
+      </section>
+
+      <section class="seed-note" role="note">
+        <strong>Aviso importante:</strong>
+        <span id="seed-note"></span>
+      </section>
+
+      <section class="status-strip" aria-label="Estado del test">
+        <div class="status-pill"><span>Pregunta</span><strong id="status-question"></strong></div>
+        <div class="status-pill"><span>Respondidas</span><strong id="status-answered"></strong></div>
+        <div class="status-pill"><span>Acertadas provisionales</span><strong id="status-correct"></strong></div>
+      </section>
+
+      <section class="card question-card">
+        <h2 class="section-title">Pregunta actual</h2>
+        <p class="question-text" id="question-text"></p>
+        <div class="options" id="options"></div>
+        <div class="actions toolbar">
+          <button class="button ghost" id="prev-button" type="button">Atrás</button>
+          <button class="button ghost" id="next-button" type="button">Siguiente</button>
+          <button class="button secondary" id="reveal-button" type="button">Ver respuesta</button>
+          <button class="button primary" id="finish-button" type="button">Finalizar</button>
+        </div>
+        <div class="feedback" id="feedback" role="status" aria-live="polite"></div>
+      </section>
+
+      <section class="card results" id="results" hidden>
+        <h2 class="section-title">Resultado del test</h2>
+        <div class="results-grid">
+          <div><span class="results-label">Aciertos</span><strong id="hits"></strong></div>
+          <div><span class="results-label">Falladas</span><strong id="errors"></strong></div>
+          <div><span class="results-label">Sin responder</span><strong id="blank"></strong></div>
+          <div><span class="results-label">Puntuación</span><strong id="score"></strong></div>
+        </div>
+        <div class="actions toolbar">
+          <button class="button secondary" id="repeat-failed-button" type="button">Repetir solo falladas</button>
+        </div>
+        <p class="results-note" id="results-note"></p>
+      </section>
+    </main>
+
+    <script src="../data/tomo-19-rodamientos-y-cojinetes.js"></script>
+    <script src="../app.js"></script>
+  </body>
+</html>

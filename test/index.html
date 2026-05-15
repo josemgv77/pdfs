@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tests por tomo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="index-page">
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">Repositorio josemgv77/pdfs</p>
+        <h1>Tests web por tomo</h1>
+        <p class="lead">Índice estático con un test individual por cada PDF detectado en el repositorio. Cada tomo tiene su propio HTML y su propio archivo JavaScript de datos.</p>
+      </div>
+      <div class="hero-panel compact-panel">
+        <p><strong>Tomos detectados:</strong> <span id="repo-count"></span></p>
+        <p><strong>Límite previsto:</strong> hasta 350 preguntas por tomo</p>
+        <p><strong>Estado actual:</strong> base funcional lista para ampliación</p>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="seed-note" role="note">
+        <strong>Aviso importante:</strong>
+        Las preguntas visibles en esta entrega son iniciales/semilla y se han derivado del nombre y de los metadatos accesibles de cada PDF. La estructura queda preparada para sustituirlas o ampliarlas cuando sea posible extraer el texto completo de los tomos.
+      </section>
+
+      <section>
+        <div class="section-heading">
+          <h2>Tomos disponibles</h2>
+          <p>Abre cada test individual o consulta directamente el PDF fuente.</p>
+        </div>
+        <div class="card-grid" id="tomos-grid"></div>
+      </section>
+    </main>
+
+    <script src="./tomos.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
